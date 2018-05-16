@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/newsimg"
+            android:layout_marginLeft="5dp"
+            android:src="@color/cardview_dark_background"
+            android:layout_gravity="center_vertical"
+            android:layout_width="88dp"
+            android:layout_height="88dp" />
+        <TextView
+            android:id="@+id/titletext"
+            android:maxLines="2"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/contenttext"
+            android:layout_width="270dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/timetext"
+            android:text="2018_4_18  16:24"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="200dp"
+            android:layout_width="150dp"
+            android:layout_height="25dp" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

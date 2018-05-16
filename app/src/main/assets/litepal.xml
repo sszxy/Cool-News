@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="weather"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.example.xinwin.db.provincesdb"/>
+        <mapping class="com.example.xinwin.db.citydb"/>
+        <mapping class="com.example.xinwin.db.countrydb"/>
+    </list>
+</litepal>
